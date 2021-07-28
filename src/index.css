@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  font-size: 10px;
+  -webkit-font-smoothing: none;
+  font-family: 'pokemon-font', monospace;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

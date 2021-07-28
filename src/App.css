@@ -1,0 +1,39 @@
+.logo{
+  height: 100px;
+  width: 100px;
+}
+
+.container{
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 200px 200px 200px 200px;
+  font-family: "pokemon-font", monospace;
+  margin-top: 2%;
+}
+
+.card{
+  margin: 5px;
+	text-align: center;
+	font-size: 1.5em;
+  
+}
+
+.card:hover{
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+:root {
+  --black: #130f0d;
+  --primary: hsl(32, 98%, 56%);
+  --white: #f0f0f9;
+}
+
+h2{
+  font-family: "pokemon-font", monospace;
+}
+
+a:link, a:visited {
+  color: black;
+  text-decoration: none;
+}
